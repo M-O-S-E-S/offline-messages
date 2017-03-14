@@ -1,0 +1,21 @@
+{
+  "name": "offline-messages",
+  "version": "1.0.0",
+  "description": "offline messages service for Halcyon-based OpenSimulator grids",
+  "main": "index.ts",
+  "scripts": {
+    "build": "mkdir -p build && node_modules/.bin/webpack"
+  },
+  "author": "Michael Heilmann",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "express": "^4.15.2",
+    "xml2js": "^0.4.17"
+  }
+}
