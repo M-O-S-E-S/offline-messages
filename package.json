@@ -4,7 +4,7 @@
   "description": "offline messages service for Halcyon-based OpenSimulator grids",
   "main": "index.ts",
   "scripts": {
-    "build": "mkdir -p build && node_modules/.bin/webpack"
+    "build": "mkdir -p build/msgs && node_modules/.bin/webpack"
   },
   "author": "Michael Heilmann",
   "license": "MIT",
