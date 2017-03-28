@@ -1,6 +1,4 @@
 
-/// <reference path="./typings/index.d.ts" />
-
 import { OfflineMessageHandler } from './lib/OfflineMessagesHandler';
 import * as express from 'express';
 
